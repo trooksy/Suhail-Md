@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || ""                       // put your app url here,
+global.appUrl=process.env.APP_URL || "https://chat.whatsapp.com/HhLhfPKtrvL6dq4Uim54ve"                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
@@ -26,7 +26,7 @@ global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "447865951947";
 
 
 
@@ -38,7 +38,7 @@ global.gdbye = process.env.GOODBYE || "false";
 global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
-global.disablepm = process.env.DISABLE_PM || "false"
+global.disablepm = process.env.DISABLE_PM || "true"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "troksy",
+  ownername:process.env.OWNER_NAME|| "troksy",
 
 
   errorChat : process.env.ERROR_CHAT || "",
